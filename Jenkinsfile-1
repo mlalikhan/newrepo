@@ -8,10 +8,6 @@ pipeline {
                   HOME="."
                 }
                 }
-         stage('Test') {
-           steps {
-              sh 'node --version'
-      }
-    }
+         
   }
 }
